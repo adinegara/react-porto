@@ -21,7 +21,7 @@ class Portofolio extends Component {
 	            <section class="wrapper style1 align-center">
 					<div class="inner">
 					<h2>Portofolio</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p>
+						<p>Saya sudah mengerjakan banyak hal, terutama desain grafis. Beberapa juga ada project web sebagai front-end.</p>
 					</div>
 
 						<div class="gallery style1 big lightbox onscroll-fade-in">
@@ -36,7 +36,7 @@ class Portofolio extends Component {
 	        							<h3>{person.title}</h3>
 	        							<p>{person.desc}</p>
 									<ul class="actions fixed">
-										<li><a  href={person.link}><span class="button small">Details</span></a></li>
+										<li><a target="_blank" href={person.link}><span class="button small">Selengkapnya</span></a></li>
 									</ul>
 								</div>
 							</article>)}

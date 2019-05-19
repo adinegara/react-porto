@@ -7198,7 +7198,7 @@ input, select, textarea {
 		width: 100%;
 		height: 100%;
 		outline: 0;
-		background-color: rgba(0, 0, 0, 0.75);
+		background-color: rgba(0, 0, 0.75, 0.75);
 		visibility: none;
 		opacity: 0;
 		z-index: 0;
@@ -8700,3 +8700,51 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+ /* Tooltip */
+ #main{
+    transform: translate(0,-50%);
+    cursor: pointer;
+}
+
+/*#main:hover #border{
+    animation: borderRotate 3s infinite linear;
+}*/
+/*@-webkit-keyframes borderRotate{
+    from{
+        transform: rotate(0deg) scale(1.1);
+    }
+    to{
+        transform: rotate(360deg) scale(1.1);
+    }
+}*/
+#tooltip{
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+    background-color:white;
+    box-shadow: 0px 0px 5px silver;
+    position: absolute;
+    top:100%;
+    left: 50%;
+    transform: translate(0,10%);
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s;
+}
+#tooltip:before{
+    content: '\25b2';
+    font-size: 20px;
+    color:whitesmoke;
+    position: absolute;
+    top:-20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+#main:hover #tooltip{
+    transform: translate(-50%,0%);
+    opacity: 1;
+    visibility: visible;
+}
+
+
