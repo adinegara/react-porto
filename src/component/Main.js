@@ -5,6 +5,7 @@ import Profile from './Profile';
 import Kontak from './Kontak';
 import Home from './Home';
 import Portofolio from './Portofolio';
+import Deskripsi from './Deskripsi';
 
 class Main extends Component {
     render() {
@@ -14,6 +15,7 @@ class Main extends Component {
                 <Route path="/home" component={Home}/>
                 <Route path="/kontak" component={Kontak}/>
                 <Route path="/profile" component={Profile}/>
+                <Route path="/deskripsi" component={Deskripsi}/>
                 <Route path="/portofolio" component={Portofolio}/>
             </Switch>
         );
