@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './css/main.css'
 
 
 class Kontak extends Component {

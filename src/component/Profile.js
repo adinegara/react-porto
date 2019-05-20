@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import './css/main.css'
+
 
 class Profile extends Component {
     render() {

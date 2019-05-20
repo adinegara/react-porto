@@ -3,6 +3,7 @@ import './App.css';
 import {Link} from 'react-router-dom';
 import Main from "./component/Main";
 
+
 class App extends Component {
     state = {
         current: 'home',
