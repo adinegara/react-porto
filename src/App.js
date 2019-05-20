@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
+import './bootstrap.min.css';
 import {Link} from 'react-router-dom';
 import Main from "./component/Main";
 
@@ -27,8 +28,8 @@ class App extends Component {
           <span class="bar2"></span>
           <span class="bar3"></span>
         </div>
-        <a class="navbar-brand top" href="/home">
-          <img src="images/adinegara-logo.png" alt=""/>
+        <a class="navbar-brand top"><Link to="/home">
+          <img src="images/adinegara-logo.png" alt=""/></Link>
         </a>
 
       </div>

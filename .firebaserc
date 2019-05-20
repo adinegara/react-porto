@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "react-porto"
+    "default": "adinegara-r",
+    "adinegara": "adinegara-r"
   }
 }

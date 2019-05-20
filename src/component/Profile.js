@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './css/main.css'
+import { ProgressBar } from 'react-bootstrap'
 
 
 class Profile extends Component {
@@ -27,27 +28,17 @@ class Profile extends Component {
                 <section>
                   <span class="icon style2 major fa-bar-chart"></span>
                   <h3>Keahlian</h3>
+                
                   <p>HTML
-                    <div class="progress" style={{height: 10}}>
-                      <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style={{width: 380}} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div></p>
+                    <ProgressBar striped variant="success" now={80} /></p>
                   <p>CSS
-                    <div class="progress" style={{height: 10}}>
-                      <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style={{width: 370}} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div></p>
+                    <ProgressBar striped variant="success" now={70} /></p>
                   <p>Illustrator
-                    <div class="progress" style={{height: 10}}>
-                      <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style={{width: 400}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div></p>
+                    <ProgressBar striped variant="success" now={85} /></p>
                   <p>Photoshop
-                    <div class="progress" style={{height: 10}}>
-                      <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style={{width: 300}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div></p>
+                    <ProgressBar striped variant="success" now={50} /></p>
                   <p>Premiere
-                    <div class="progress" style={{height: 10}}>
-                      <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style={{width: 340}} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div></p>
-                  
+                    <ProgressBar striped variant="success" now={50} /></p>
                 </section>
                 <section>
                   <span class="icon style2 major fa-heart"></span>

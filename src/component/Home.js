@@ -1,7 +1,5 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
-import profile from './Profile'
-import portofolio from './Portofolio'
 import './css/main.css'
 
 class Home extends React.Component{

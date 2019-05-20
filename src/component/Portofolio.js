@@ -2,8 +2,6 @@ import React, {Component} from 'react';
 import axios from 'axios';
 import './css/main.css'
 
-// import Deskripsi from './Deskripsi';
-
 
 class Portofolio extends Component {
   state = {
@@ -38,7 +36,7 @@ class Portofolio extends Component {
 	        							<h3>{person.title}</h3>
 	        							<p>{person.desc}</p>
 									<ul class="actions fixed">
-										<li><a target="_blank" href={person.link}><span class="button small">Selengkapnya</span></a></li>
+										<li><a target="_blank" rel="noopener noreferrer" href={person.link}><span class="button small">Selengkapnya</span></a></li>
 									</ul>
 								</div>
 							</article>)}
