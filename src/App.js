@@ -20,32 +20,21 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-            <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <div class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu"> 
-          <span class="bar1"></span>
-          <span class="bar2"></span>
-          <span class="bar3"></span>
-        </div>
-        <a class="navbar-brand top"><Link to="/home">
-          <img src="images/adinegara-logo.png" alt=""/></Link>
-        </a>
-
-      </div>
-
-      <div class="collapse navbar-collapse" id="main-menu">
-         <ul class="nav navbar-nav navbar-right">
-        <li><Link to="/home" style={{ textDecoration: 'none' }}>Beranda</Link></li>
-        <li><Link to="/profile" style={{ textDecoration: 'none' }}>Profil</Link></li>
-        <li><Link to="/portofolio" style={{ textDecoration: 'none' }}>Portofolio</Link></li>
-        <li><Link to="/kontak" style={{ textDecoration: 'none' }}>Kontak</Link></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  
-             
+             <div class="nav navbar navbar-default navbar-fixed-top">
+              <div class="container">
+              <a class="navbar-brand top"><Link to="/home">
+                <img src="images/adinegara-logo.png" alt=""/></Link>
+              </a>
+              <label class="strip" for="toggle">&#9776;</label>
+              <input type="checkbox" id="toggle"/>
+              <div class="menu nav navbar-nav navbar-right">
+                  <Link to="/home" >Beranda</Link>
+                  <Link to="/profile">Profil</Link>
+                  <Link to="/portofolio">Portofolio</Link>
+                 <Link to="/kontak">Kontak</Link>
+              </div>
+              </div>
+          </div>  
         <p><Main/></p>
             </div>
         );
