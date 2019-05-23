@@ -1,8 +1,8 @@
 {
   "name": "Adinegara | Online Portofolio",
   "short_name": "Adinegara",
-  "theme_color": "rgba(33,150,243,0.95)",
-  "background_color": "#a3a8ac",
+  "theme_color": "#DBDBDB",
+  "background_color": "#DBDBDB",
   "display": "fullscreen",
   "orientation": "portrait",
   "Scope": "/",

@@ -16,7 +16,7 @@ class Profile extends Component {
                 <section>
                   <span class="icon style2 major fa-address-card"></span>
                   <h3>Bio</h3>
-                  <p>Tempat, tanggal lahir  : Semarang, 29 mei 1998<br/>
+                  <p>Tempat, tanggal lahir  : Semarang, 29 Mei 1998<br/>
                   Alamat           : Jl. Magelang km 8,5 Sendangadi, Mlati, Sleman</p>
                   
                 </section>
